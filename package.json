@@ -1,6 +1,6 @@
 {
   "name": "@zxy-space/v-form",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "main": "packages/index.js",
   "author": "zxy-space <me@zxy-space.xin>",
@@ -19,8 +19,8 @@
     "push": "git push && git push gitee master && git push gitlab master"
   },
   "dependencies": {
-    "@zxy-space/datejs": "^0.0.2",
-    "@zxy-space/javascript-utils": "^0.0.1",
+    "@zxy-space/datejs": "^0.0.4",
+    "@zxy-space/javascript-utils": "^0.0.3",
     "core-js": "^3.14.0",
     "vant": "^2.12.21",
     "vee-validate": "^3.4.10",

@@ -1,6 +1,8 @@
 <template>
   <div>
     <ul class="doc-wrap">
+      <li><a href="https://github.com/D-xuanmo/v-form/blob/master/example/App.vue" target="_blank">点我查看示例代码，Go</a></li>
+      <li><a href="https://codesandbox.io/s/v-formshili-3hs2c?file=/src/App.vue" target="_blank">点我可在线编辑预览（PC端），Go</a></li>
       <li>
         <span style="vertical-align: super;">切换表单禁用状态 </span>
         <van-switch v-model="disabled" size="20px" />

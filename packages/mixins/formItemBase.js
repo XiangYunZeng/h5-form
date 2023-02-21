@@ -181,7 +181,7 @@ export default {
     },
 
     _formatErrorMsg(message) {
-      // fix: https://github.com/Zxy-Space/h5-form/issues/59
+      // fix: https://github.com/Zxy-Space/v-form/issues/59
       return message.replace(/\{_?field_?}/, this.formModel.rules.label).replace('{_key_}', this.formModel.key)
     },
 

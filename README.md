@@ -1,8 +1,3 @@
-# 基于 Vant-UI 表单封装的动态表单组件
-* 目前已经集成的组件（Address/Checkbox/DatePicker/Input/Radio/Select/Text/Switch/Upload）
-* 组件不满足的情况可自定义开发组件或者使用 `slot` 的形式
-* 组件的调用方式采取 `JSON` 配置的形式，具体参数见model数据说明
-
 
 ## 语法约定
 * `Mixin` 公用方法使用 `__` 作为前缀
@@ -40,7 +35,7 @@ import '@zxy-space/v-form/packages/style/index.less'
 // import '@zxy-space/v-form/packages/style/var.less'
 
 // 注册组件
-// 更多参数说明：https://github.com/Zxy-Space/h5-form/blob/master/src/index.js#L6-L14
+// 更多参数说明：https://github.com/Zxy-Space/v-form/blob/master/src/index.js#L6-L14
 /**
  * 设置地址选择组件数据 JSON，组件默认不注册数据
  * 如果需要自定义数据，参考此文件结构即可
@@ -348,3 +343,5 @@ const model = [
 ```
 
 ## 示例图片
+
+![示例](./example.png)
