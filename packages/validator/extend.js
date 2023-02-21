@@ -2,7 +2,7 @@ import { extend, localize } from 'vee-validate'
 import * as veeRules from 'vee-validate/dist/rules'
 // eslint-disable-next-line camelcase
 import zh_CN from 'vee-validate/dist/locale/zh_CN'
-import { isObject } from '@xuanmo/javascript-utils'
+import { isObject } from '@zxy-space/javascript-utils'
 
 localize('zh_CN', zh_CN)
 

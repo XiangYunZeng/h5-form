@@ -1,12 +1,12 @@
 {
-  "name": "@zxy/v-form",
-  "version": "1.4.41",
+  "name": "@zxy-space/v-form",
+  "version": "0.0.2",
   "private": false,
   "main": "packages/index.js",
-  "author": "Zxy-Space <me@Zxy-Space.xin>",
+  "author": "zxy-space <me@zxy-space.xin>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zxy-Space/h5-form"
+    "url": "https://github.com/zxy-space/h5-form"
   },
   "scripts": {
     "bootstrap": "yarn || npm i && husky install && npx husky add .husky/pre-commit \"npm run lint\"",
@@ -19,8 +19,8 @@
     "push": "git push && git push gitee master && git push gitlab master"
   },
   "dependencies": {
-    "@zxy/datejs": "^1.0.3",
-    "@zxy/javascript-utils": "^0.0.29",
+    "@zxy-space/datejs": "^0.0.2",
+    "@zxy-space/javascript-utils": "^0.0.1",
     "core-js": "^3.14.0",
     "vant": "^2.12.21",
     "vee-validate": "^3.4.10",

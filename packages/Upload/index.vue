@@ -57,7 +57,7 @@
 <script>
 import formItemBase from '../mixins/formItemBase'
 import request from '../utils/request'
-import { isObject, isImageUrl } from '@xuanmo/javascript-utils'
+import { isObject, isImageUrl } from '@zxy-space/javascript-utils'
 export default {
   name: 'VUpload',
 

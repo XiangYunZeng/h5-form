@@ -29,7 +29,7 @@ import VBaseInput from '../components/VBaseInput.vue'
 import { Picker } from 'vant'
 import VPopup from '../components/VPopup.vue'
 import formItemBase from '../mixins/formItemBase'
-import { isEmpty } from '@xuanmo/javascript-utils'
+import { isEmpty } from '@zxy-space/javascript-utils'
 
 export default {
   name: 'VAddress',

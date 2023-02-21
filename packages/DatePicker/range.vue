@@ -60,7 +60,7 @@
 <script>
 import VPopup from '../components/VPopup.vue'
 import formItemBase from '../mixins/formItemBase'
-import datejs from '@xuanmo/datejs'
+import datejs from '@zxy-space/datejs'
 import row2col from '../Layout/row2col'
 import DatePicker from './components/index'
 import VBaseInput from '../components/VBaseInput.vue'

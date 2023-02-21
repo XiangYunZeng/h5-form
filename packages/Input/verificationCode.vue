@@ -23,7 +23,7 @@
 import VBaseInput from '../components/VBaseInput.vue'
 import { Button } from 'vant'
 import formItemBase from '../mixins/formItemBase'
-import { isEmpty, isFunction, countDown } from '@xuanmo/javascript-utils'
+import { isEmpty, isFunction, countDown } from '@zxy-space/javascript-utils'
 
 export default {
   name: 'VVerificationCode',

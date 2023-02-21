@@ -1,4 +1,4 @@
-import { dCookie } from '@xuanmo/javascript-utils'
+import { dCookie } from '@zxy-space/javascript-utils'
 export default [
   { rules: { type: 'VCell' } },
   {

@@ -1,4 +1,4 @@
-import { isObject } from '@xuanmo/javascript-utils'
+import { isObject } from '@zxy-space/javascript-utils'
 
 /**
  * 统一处理下拉选项 option 数据

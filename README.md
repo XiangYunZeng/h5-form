@@ -21,7 +21,7 @@ $ npm run dev
 ## 安装
 ```bash
 # 推荐使用 yarn 安装，使用 npm 可能会存在依赖不全的情况
-yarn add @xuanmo/v-form
+yarn add @zxy-space/v-form
 ```
 
 ## 使用
@@ -29,23 +29,23 @@ yarn add @xuanmo/v-form
 ### 引入注册组件
 ```js
 // 引入组件
-import VForm from '@xuanmo/v-form'
-import '@xuanmo/v-form/packages/style/index.less'
+import VForm from '@zxy-space/v-form'
+import '@zxy-space/v-form/packages/style/index.less'
 
 // 不经过编译引入方式，（不推荐）
-// import VForm from '@xuanmo/v-form/dist/v-form.umd.min.js'
-// import '@xuanmo/v-form/dist/index.css'
+// import VForm from '@zxy-space/v-form/dist/v-form.umd.min.js'
+// import '@zxy-space/v-form/dist/index.css'
 
 // 覆盖变量引入此文件替换变量即可，可参考 example/App.vue
-// import '@xuanmo/v-form/packages/style/var.less'
+// import '@zxy-space/v-form/packages/style/var.less'
 
 // 注册组件
-// 更多参数说明：https://github.com/D-xuanmo/v-form/blob/master/src/index.js#L6-L14
+// 更多参数说明：https://github.com/Zxy-Space/h5-form/blob/master/src/index.js#L6-L14
 /**
  * 设置地址选择组件数据 JSON，组件默认不注册数据
  * 如果需要自定义数据，参考此文件结构即可
  */
-import ADDRESS_JSON from '@xuanmo/v-form/packages/Address/data.json'
+import ADDRESS_JSON from '@zxy-space/v-form/packages/Address/data.json'
 Vue.use(VForm, {
   addressJSON: ADDRESS_JSON
 })
@@ -61,7 +61,7 @@ Vue.use(VForm, {
 // vue.config.js
 module.exports = {
   transpileDependencies: [
-    '@xuanmo/v-form'
+    '@zxy-space/v-form'
   ]
 }
 ```
@@ -158,7 +158,7 @@ Vue.use(VForm, {
 #### 制作组件，具体实现可参考 example/components/FormItemTest.vue
 ```js
 // 导入公用组件的 Mixin
-import { vFormItemBaseMixin } from '@xuanmo/v-form'
+import { vFormItemBaseMixin } from '@zxy-space/v-form'
 export default {
   name: 'FormItemTest',
 
@@ -302,7 +302,7 @@ const model = [
       label: '时间',
       // 共4种类型：datetime、year-month、date、time
       type: 'VDatePicker|datetime',
-      // 数据格式处理：timestamp时间戳，其他用法参考：https://github.com/D-xuanmo/datejs
+      // 数据格式处理：timestamp时间戳，其他用法参考：https://github.com/Zxy-Space/datejs
       valueFormat: 'yyyy-MM-dd'
     }
   },

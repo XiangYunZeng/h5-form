@@ -1,5 +1,5 @@
 // 基础表单公用
-import { debounce, isEmpty, isFunction, isRegexp } from '@xuanmo/javascript-utils'
+import { debounce, isEmpty, isFunction, isRegexp } from '@zxy-space/javascript-utils'
 import baseProps from './formItemBaseProps'
 export default {
   inject: ['VFormRoot', '$validate'],
@@ -181,7 +181,7 @@ export default {
     },
 
     _formatErrorMsg(message) {
-      // fix: https://github.com/D-xuanmo/v-form/issues/59
+      // fix: https://github.com/Zxy-Space/h5-form/issues/59
       return message.replace(/\{_?field_?}/, this.formModel.rules.label).replace('{_key_}', this.formModel.key)
     },
 

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import components from './components'
 import validate, { extend } from '../validator'
-import { isRegexp, isFunction, debounce, isEmpty } from '@xuanmo/javascript-utils'
+import { isRegexp, isFunction, debounce, isEmpty } from '@zxy-space/javascript-utils'
 
 const formUnitBase = Vue.extend({
   components,

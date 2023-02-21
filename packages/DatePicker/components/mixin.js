@@ -1,4 +1,4 @@
-import datejs from '@xuanmo/datejs'
+import datejs from '@zxy-space/datejs'
 export default {
   props: {
     value: {

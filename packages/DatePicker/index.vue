@@ -28,7 +28,7 @@ import VBaseInput from '../components/VBaseInput.vue'
 import VPopup from '../components/VPopup.vue'
 import DatePicker from './components/index'
 import formItemBase from '../mixins/formItemBase'
-import datejs from '@xuanmo/datejs'
+import datejs from '@zxy-space/datejs'
 export default {
   name: 'VDatePicker',
 
